@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/iv_image"
+        android:id="@+id/tv_locality_name"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+
+    <ImageView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/iv_image"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_gps"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

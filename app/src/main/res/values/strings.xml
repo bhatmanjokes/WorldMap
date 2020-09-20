@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">World Map</string>
+    <string name="google_maps_API_key">"AIzaSyC0XrsVQGJLBNJ5S4COV1sDqzfoeRG4fto"</string>
+    <string name="save_location_data">Save Location Data</string>
+    <string name="location">Location : </string>
+    <string name="title">Title : </string>
+    <string name="Save">save</string>
+    <string name="direction">Direction</string>
+</resources>
